@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-image: url(20.Cycle-store.png);
+    background-size: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+.new{
+    width: 10%;
+}
+.left-side{
+   background-color: #F7C17B;
+   margin-left: -5px;
+}
+.right-side{
+    background-color: #325662;
+    margin-left: 5px;
+}
+.line{
+    width: 40%;
+    height: 2px;
+    margin-top: 30px;
+
+}
+.buy{
+    background-color: #325662;
+}
+.price{
+    color: #325662;
+}
+.price::first-letter{
+    color: #F7C17B;
+}
+.snow{
+    width: 100%;
+    background-image: url(sec-4-bg.png);
+    background-size: 100%;
+    height: 1500px;
+    background-repeat: no-repeat;
+}
+.im_cy{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.im_cy:hover{
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+.says{
+    margin-top: -15%;
+}
+.says2{
+    margin-top: -15%;
+    width: 50%;
+}
+.text{
+    margin-left: -100px;
+}
+.tts{
+    margin-top: -30px;
+}
+.box{
+    box-shadow: 0.5px 0.5px 5px -1px;
+}
+.t_box{
+    justify-content: center;
+    margin-top: -25px;
+}
+.right{
+    background-color: #f7c17b;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.left{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    margin-left: -5px;
+}
+.sec_box_5{
+    background-color: #325662;
+}
+.iimg{
+    height: 10px;
+    width: 100%;
+}
+.me:hover{
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+.new_a{
+    color: white;
+}
+.about_text{
+    color: white;
+    padding-top: 50px;
+}
+.red_btn{
+    margin-top: 20%;
+}
+.form{
+    border-radius: 20px;
+}
+
+/* **********footer************ */
+footer{
+    background-color: #325662;
+}
+
+
+
+
+
+
+@media screen and (max-width:998px) {
+    .new_a{
+        color: rgb(241, 235, 235);
+        width: 100%;
+        
+    }
+    .new{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .new_a{
+        color: rgb(10, 1, 1);
+        width: 100%;
+        padding-top: 50%;
+       }
+
+}
+
+
+@media screen and (max-width:578px) {
+    header{
+        height: 500px;
+    }
+    .new_a{
+    color: rgb(12, 0, 0);
+    width: 100%;
+    padding-top: 80px;
+   }
+   .about_text{
+    padding-top: 100%;
+    /* background-color: #F7C17B; */
+    color: black;
+   }
+   .im_cy_1{
+    margin-top: -130%;
+    margin-left: -10% ;
+   }
+   .red_btn{
+    margin-top: 100%;
+    }
+    .img_gallery{
+        gap: 10px;
+    }
+
+}
